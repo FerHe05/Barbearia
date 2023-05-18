@@ -34,7 +34,7 @@ if (!isset($_SESSION["user"])) //se a sessão "user" n for iniciado
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="../home/index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="../home/index.php">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../produtos/produtos.html">Produtos e Serviços</a>

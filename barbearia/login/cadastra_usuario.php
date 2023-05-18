@@ -22,7 +22,7 @@ if (mysqli_query($con, $sql)) {
             </script>";
 } else {
     echo "<script language='javascript' type/javascript'>
-            alert('Usuário não cadastrados!');
+            alert('Usuário não cadastrado!');
             window.location.href='index.html';
             </script>";
 }

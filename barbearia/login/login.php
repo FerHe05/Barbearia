@@ -7,7 +7,7 @@
     if(mysqli_num_rows($logar)>0)
     {
         $_SESSION["user"] = $_POST['cpf'];
-        header('location:../home/index.html');
+        header('location:../home/index.php');
     }
     else 
     {

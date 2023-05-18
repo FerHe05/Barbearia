@@ -31,26 +31,7 @@
   </section>
   <section class="form-section" id="sign-up">
     <h1 class="title">Criar Conta</h1>
-    <script src="https://accounts.google.com/gsi/client" async defer></script>
-    <script>
-      function handleCredentialResponse(response) {
-      }
-      window.onload = function () {
-        google.accounts.id.initialize({
-          client_id: "223266953922-eaitc8s7vqk7cns0ffpegtljfu2dgof8.apps.googleusercontent.com",
-          callback: handleCredentialResponse
-        });
-        google.accounts.id.renderButton(
-          document.getElementById("buttonDiv"),
-          {
-            theme: "filled_black", size: "large"
-          }  // customization attributes
-
-        );
-
-        google.accounts.id.prompt(); // also display the One Tap dialog
-      }
-    </script>
+   
 
     <div id="buttonDiv"></div>
     <div class="form">
